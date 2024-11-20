@@ -1,0 +1,79 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #008746;
+}
+
+#carousel img {
+    object-fit: cover;
+    height: 470px;
+    width: 100%;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #008746;
+}
+
+#cabecalho .nav .nav-link{
+    font-family: "Titillium Web", sans-serif;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: "Titillium Web", sans-serif;
+}
+
+#sobre-o-restaurante, #cardapio {
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    color: #008746;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #008746;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #008746;
+}
+
+footer{
+    background-color: #1a1a20;
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+form textarea{
+    resize: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
